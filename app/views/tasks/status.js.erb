@@ -1,0 +1,2 @@
+$('.status_btn<%= @task.id %>').html("<%=j render partial: 'tasks/status', locals: { task: @task } %>");
+$($('.status_btn<%= @task.id %>')[1]).unwrap()
