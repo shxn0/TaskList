@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## 使用した技術要素
 
-* Ruby version
+####開発環境
+* Rails version: 5.1.6
+* Ruby version: 2.5.0 (x86_64-darwin16)
 
-* System dependencies
+####Rubygems
+* better_errors
+* dotenv-rails
+* pry-rails
+* rails_12factor
 
-* Configuration
+####
 
-* Database creation
 
-* Database initialization
+##全体の設計・構成についての説明
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+##開発環境のセットアップ手順
