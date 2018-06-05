@@ -44,7 +44,7 @@
 ```
 
 #### Uninstall standard equipment ruby
-`If path has been displayed, Ruby has already been installed.`
+`If path has been displayed, Ruby has already been installed, so uninstall it`
 ```
 which ruby
 sudo port uninstall ruby
@@ -66,7 +66,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ```
 
 #### Install ruby
-`If its version has been displayed, Ruby has already been installed.`
+`If its version has been displayed, Ruby has already been installed successfully.`
 ```
 rbenv install 2.5.0
 ruby -v
