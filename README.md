@@ -44,9 +44,9 @@ This app is implemented Ajax in order to switch a status of each tasks intuitive
 #### Database
   * Structure of tasks table
 
-| id | task_name | deadline | status | created_at | updated_at |
-----|----|----|----|----|----
-| TD1 | TD2 | TD3 | TD4| TD5 | TD6 |
+| Column name | id | task_name | deadline | status | created_at | updated_at |
+----|----|----|----|----|----|----
+| Data type | TD1 | string | date | boolean | TD5 | TD6 |
 
 
 #### Layout
