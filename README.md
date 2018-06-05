@@ -54,7 +54,7 @@ sudo port uninstall ruby
 brew upgrade
 ```
 
-#### Install rbenv and ruby-build to managing ruby versions
+#### Install rbenv and ruby-build to manage ruby versions
 ```
 brew install rbenv ruby-build
 ```
@@ -92,7 +92,7 @@ brew install postgresql
 ```
 
 #### Start postgresql  
-only once for an application
+`only once for an application`
 ```
 brew services start postgresql
 ```
