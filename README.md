@@ -58,6 +58,7 @@ $ rails server
 5. `Bundler` Manage gems and its version for each your projects *(gem)*
 6. `PostgreSQL` *(Database)*
 
+***
 
 #### 1. Install homebrew
 ```
