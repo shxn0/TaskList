@@ -30,29 +30,36 @@
 ## Entire specifications
 
 #### Fundamental Function
-* Model View Controller architecture
 * CRUD operations
-
-#### Status Function
-* Ajax  
-This app is implemented Ajax in order to switch a status of each tasks intuitively. Ajax is used for updating "status" column. As the "status" column is boolean data type, its data is updated by switching true or false values.
-
-#### Search Function
-* Regular expression
-  * Implemented Partial matching function in order to search undone task.
+* Task table has 6 columns as below
+  - id
+  - task_name *task contents typed by users*
+  - deadline *task deadline selected by users*
+  - status *task status managed by users and updated via Ajax*
+  - created_at *used for displaying the order of task list*
+  - updated_at
 
 #### Database
-  * Structure of tasks table
+* Structure of tasks table
 
 | Column name | id | task_name | deadline | status | created_at | updated_at |
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
-| Data type | TD1 | string | date | boolean | TD5 | TD6 |
+| Data type | int | string | date | boolean | datetime | datetime |
 
+#### Status Function
+* Ajax  
+This app is implemented Ajax in order to switch a status of each tasks intuitively on view page. Ajax is used for updating "status" column. As the "status" column is boolean data type, its data is updated by switching true or false values.
+
+#### Search Function
+* Regular expression  
+This app is implemented Partial matching function in order to search your undone tasks. First, it retrieves data that is only false in "status" column.
+After that, it filters the data by executing partial matching with string in "task_name" column and displays them on view page as searching result.
 
 #### Layout
-* Used Now-ui-kit template
+* Now-ui-kit template
+* Responsive web design
 
-#### Others
+#### Setting
 * Default locale: Japanese
 * Time zone     : JST
 
