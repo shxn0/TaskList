@@ -54,7 +54,7 @@ sudo port uninstall ruby
 brew upgrade
 ```
 
-#### Install rbenv and ruby-build to managing Ruby versions
+#### Install rbenv and ruby-build to managing ruby versions
 ```
 brew install rbenv ruby-build
 ```
@@ -64,10 +64,11 @@ brew install rbenv ruby-build
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ```
 
-#### Install ruby
+#### Install ruby  
+If its version has been displayed, Ruby has already been installed.
 ```
 rbenv install 2.5.0
-ruby -v (If its version has been displayed, Ruby has already been installed.)
+ruby -v
 ```
 
 #### Set up default ruby version
@@ -90,7 +91,8 @@ gem install rails -v 5.1.6
 brew install postgresql
 ```
 
-#### Start postgresql (only once for an application)
+#### Start postgresql  
+only once for an application
 ```
 brew services start postgresql
 ```
