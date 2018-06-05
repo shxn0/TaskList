@@ -61,72 +61,72 @@ $ rails server
 
 #### 1. Install homebrew
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 #### 2. Uninstall standard equipment ruby
-If path has been displayed, Ruby has already been installed, so uninstall it
+If `path` has been displayed, Ruby has already been installed, so uninstall it
 ```
-which ruby
-sudo port uninstall ruby
+$ which ruby
+$ sudo port uninstall ruby
 ```
 
 #### 3. Upgrade homebrew
 ```
-brew upgrade
+$ brew upgrade
 ```
 
 #### 4. Install rbenv and ruby-build to manage ruby versions
 ```
-brew install rbenv ruby-build
+$ brew install rbenv ruby-build
 ```
 
 #### 5. Set up rbenv
 ```
-echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+$ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ```
 
 #### 6. Install ruby
-If its version has been displayed, Ruby has already been installed successfully.
+If its `version` has been displayed, Ruby has successfully been installed.
 ```
-rbenv install 2.5.0
-ruby -v
+$ rbenv install 2.5.0
+$ ruby -v
 ```
 
 #### 7. Set up default ruby version
 ```
-rbenv global 2.5.0
+$ rbenv global 2.5.0
 ```
 
 #### 8. Install bundler
 ```
-gem install bundler
+$ gem install bundler
 ```
 
 #### 9. Install rails 5
 ```
-gem install rails -v 5.1.6
+$ gem install rails -v 5.1.6
 ```
 
 #### 10. Install postgresql
 ```
-brew install postgresql
+$ brew install postgresql
 ```
 
 #### 11. Start postgresql  
 `only once` for an application
 ```
-brew services start postgresql
+$ brew services start postgresql
 ```
 
 #### 12. Install git
 ```
-brew install git
+$ brew install git
 ```
 
 #### 13. Install heroku
 ```
-brew install heroku
+$ brew install heroku
 ```
 
 
