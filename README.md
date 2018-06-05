@@ -16,7 +16,7 @@
 * heroku
 
 #### Package management tool
-* homebrew
+* Homebrew
 * yarn
 
 #### Rubygems (except default gems on rails 5.1)
@@ -54,7 +54,7 @@ $ rails server
 
 ## Setup procedure (development environment)
 
-### Required elements and explanations
+### Required elements and summary
 
 1. `homebrew` Make it easier to install software into Mac OS
 2. `rbenv` Required to switch Ruby versions *(installed via homebrew)*
@@ -66,6 +66,8 @@ $ rails server
 ***
 
 #### 1. Install homebrew
+
+[Homebrew for macOS](https://brew.sh/index_ja)
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
