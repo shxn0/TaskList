@@ -6,6 +6,7 @@
 #### Development environment
 * Rails version: 5.1.6
 * Ruby version: 2.5.0 (x86_64-darwin16)
+* MacOS Sierra version 10.12.6
 
 ## Technical elements
 
@@ -38,72 +39,72 @@
 6. `PostgreSQL` *(Database)*
 
 
-#### Install homebrew
+#### 1. Install homebrew
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-#### Uninstall standard equipment ruby
+#### 2. Uninstall standard equipment ruby
 `If path has been displayed, Ruby has already been installed, so uninstall it`
 ```
 which ruby
 sudo port uninstall ruby
 ```
 
-#### Upgrade homebrew
+#### 3. Upgrade homebrew
 ```
 brew upgrade
 ```
 
-#### Install rbenv and ruby-build to manage ruby versions
+#### 4. Install rbenv and ruby-build to manage ruby versions
 ```
 brew install rbenv ruby-build
 ```
 
-#### Set up rbenv
+#### 5. Set up rbenv
 ```
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ```
 
-#### Install ruby
+#### 6. Install ruby
 `If its version has been displayed, Ruby has already been installed successfully.`
 ```
 rbenv install 2.5.0
 ruby -v
 ```
 
-#### Set up default ruby version
+#### 7. Set up default ruby version
 ```
 rbenv global 2.5.0
 ```
 
-#### Install bundler
+#### 8. Install bundler
 ```
 gem install bundler
 ```
 
-#### Install rails 5
+#### 9. Install rails 5
 ```
 gem install rails -v 5.1.6
 ```
 
-#### Install postgresql
+#### 10. Install postgresql
 ```
 brew install postgresql
 ```
 
-#### Start postgresql  
+#### 11. Start postgresql  
 `only once for an application`
 ```
 brew services start postgresql
 ```
 
-#### Install git
+#### 12. Install git
 ```
 brew install git
 ```
 
-#### Install heroku
+#### 13. Install heroku
 ```
 brew install heroku
 ```
