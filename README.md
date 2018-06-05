@@ -44,8 +44,9 @@
 ```
 
 #### Uninstall standard equipment ruby
+`If path has been displayed, Ruby has already been installed.`
 ```
-which ruby (If path has been displayed, Ruby has already been installed.)
+which ruby
 sudo port uninstall ruby
 ```
 
