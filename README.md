@@ -1,20 +1,23 @@
 # Todolist
+
+#### Description
 * Task Management application
 * Intuitive button layout to switch each task of status
 * Being able to search your undone tasks
+
+## Technical elements
 
 #### Development environment
 * Rails version: 5.1.6
 * Ruby version: 2.5.0 (x86_64-darwin16)
 * MacOS Sierra version 10.12.6
+* PostgreSQL 9.6.4
+* bootstrap 4.0
+* heroku
 
-## Technical elements
+#### Package management tool
 * homebrew
 * yarn
-* PostgreSQL 9.6.4
-* heroku
-* Ajax
-* jQuery
 
 #### Rubygems (except default gems on rails 5.1)
 * better_errors
@@ -23,8 +26,26 @@
 * rails_12factor
 * bundler
 
+## Usage
+Please clone repository to create a "local" copy on your computer.
+```
+$ git clone git@github.com:shxn0/TodoList.git
+```
 
-## Description
+Execute the bundle command to install ruby gems to run this app.
+```
+$ bundle install
+```
+
+Execute the migrate command.
+```
+$ rails db:migrate
+```
+
+Now, you are ready for getting started this app.
+```
+$ rails server
+```
 
 ## Setup procedure (development environment)
 
@@ -44,7 +65,7 @@
 ```
 
 #### 2. Uninstall standard equipment ruby
-`If path has been displayed, Ruby has already been installed, so uninstall it`
+If path has been displayed, Ruby has already been installed, so uninstall it
 ```
 which ruby
 sudo port uninstall ruby
@@ -66,7 +87,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ```
 
 #### 6. Install ruby
-`If its version has been displayed, Ruby has already been installed successfully.`
+If its version has been displayed, Ruby has already been installed successfully.
 ```
 rbenv install 2.5.0
 ruby -v
@@ -93,7 +114,7 @@ brew install postgresql
 ```
 
 #### 11. Start postgresql  
-`only once for an application`
+`only once` for an application
 ```
 brew services start postgresql
 ```
