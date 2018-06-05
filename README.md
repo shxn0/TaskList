@@ -34,7 +34,7 @@
 * CRUD operations
 
 #### Status Function
-* Ajax
+* Ajax  
 This app is implemented Ajax in order to switch a status of each tasks intuitively. Ajax is used for updating "status" column. As the "status" column is boolean data type, its data is updated by switching true or false values.
 
 #### Search Function
@@ -43,11 +43,11 @@ This app is implemented Ajax in order to switch a status of each tasks intuitive
 
 #### Database
   * Structure of tasks table
-```
+
 | id | task_name | deadline | status | created_at | updated_at |
-----|----|----|----|----|----|
+----|----|----|----|----|----
 | TD1 | TD2 | TD3 | TD4| TD5 | TD6 |
-```
+
 
 #### Layout
 * Used Now-ui-kit template
