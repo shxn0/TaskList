@@ -16,18 +16,18 @@
 * rails_12factor
 * bundler
 
-```test```
+```print "test" ```
 
 ***
 
 `test2`
 
 1. List1
-  i. List1-1
-  ii. List1-2
+  1. List1-1
+  1. List1-2
 
   [Google](https://www.google.co.jp/)
 
-  Hello *World* Italic
-  Hello **World** Bold
-  Hello ***World*** Italic & Bold
+  Hello *World* Italic  
+  Hello **World** Bold  
+  Hello ***World*** Italic & Bold  
