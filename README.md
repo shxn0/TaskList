@@ -35,20 +35,26 @@
 
 #### Status Function
 * Ajax
-  * Implemented Ajax in order to switch a status of each tasks intuitively.
-  * "status" column is only subject to be updated with Ajax.
-  * Data type of "status" is created as boolean.
+This app is implemented Ajax in order to switch a status of each tasks intuitively. Ajax is used for updating "status" column. As the "status" column is boolean data type, its data is updated by switching true or false values.
 
 #### Search Function
 * Regular expression
   * Implemented Partial matching function in order to search undone task.
+
+#### Database
+  * Structure of tasks table
+```
+| id | task_name | deadline | status | created_at | updated_at |
+----|----|----|----|----|----|
+| TD1 | TD2 | TD3 | TD4| TD5 | TD6 |
+```
 
 #### Layout
 * Used Now-ui-kit template
 
 #### Others
 * Default locale: Japanese
-* Time zone     : JST 
+* Time zone     : JST
 
 ## Usage
 Please clone repository to create a "local" copy on your computer.
