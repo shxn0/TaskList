@@ -29,53 +29,55 @@
 ## Setup procedure (development environment)
 
 ### Required elements and explanation
+```
 1. **homebrew** *Make it easier to install software into Mac OS*
 2. **rbenv** *Required to switch Ruby versions (installed via homebrew)*
 3. **Ruby** *Operated by rbenv (installed via rbenv)*
 4. **Rubygems** *Library packaging and distribution for Ruby*
 5. **Bundler** *Manage gems and its version for each your projects (gem)*
 6. **PostgreSQL** *(Database)*
-
-#### Homebrewのインストール
-```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+#### Homebrewのインストール
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+
 #### 標準搭載のRubyをアンインストール
-```which ruby```
+```which ruby```  
 ```sudo port uninstall ruby```
 
 #### Homebrewを最新にする
-brew upgrade
+```brew upgrade```
 
 #### Rubyのバージョンを管理するrbenvとruby-buildをインストール
-brew install rbenv ruby-build
+```brew install rbenv ruby-build```
 
 #### rbenvの設定を行う
-echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+```echo 'eval "$(rbenv init -)"' >> ~/.bash_profile```
 
 #### Rubyのインストール
-rbenv install 2.5.0
+```rbenv install 2.5.0```
 
 #### 標準で使用するRuby versionの設定
-rbenv global 2.5.0
+```rbenv global 2.5.0```
 
 #### Railsをインストール
-gem install rails -v 5.1.6
+```gem install rails -v 5.1.6```
 
 #### Bundlerのインストール
-gem install bundler
+```gem install bundler```
 
 #### PostgreSQLのインストール
-brew install postgresql
+```brew install postgresql```
 
 #### PostgreSQLの起動(only once)
-brew services start postgresql
+```brew services start postgresql```
 
 #### Gitのインストール
-brew install git
+```brew install git```
 
 #### herokuのインストール
-brew install heroku
+```brew install heroku```
 
 
 
