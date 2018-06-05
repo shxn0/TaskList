@@ -2,17 +2,18 @@
 
 ### Description
 * Task Management application
-* Intuitive button layout to switch each task of status
+* Intuitive button layout to switch a status of each tasks
 * Being able to search your undone tasks
 
 ## Technical elements
 
 #### Development environment
+* MacOS Sierra version: 10.12.6
 * Rails version: 5.1.6
 * Ruby version: 2.5.0 (x86_64-darwin16)
-* MacOS Sierra version 10.12.6
 * PostgreSQL 9.6.4
 * bootstrap 4.0
+* jQuery
 * heroku
 
 #### Package management tool
@@ -28,8 +29,26 @@
 
 ## Entire specifications
 
-#### Function
-* CRUD cycle
+#### Fundamental Function
+* Model View Controller architecture
+* CRUD operations
+
+#### Status Function
+* Ajax
+  * Implemented Ajax in order to switch a status of each tasks intuitively.
+  * "status" column is only subject to be updated with Ajax.
+  * Data type of "status" is created as boolean.
+
+#### Search Function
+* Regular expression
+  * Implemented Partial matching function in order to search undone task.
+
+#### Layout
+* Used Now-ui-kit template
+
+#### Others
+* Default locale: Japanese
+* Time zone     : JST 
 
 ## Usage
 Please clone repository to create a "local" copy on your computer.
