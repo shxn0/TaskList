@@ -26,6 +26,8 @@
 * rails_12factor
 * bundler
 
+## 
+
 ## Usage
 Please clone repository to create a "local" copy on your computer.
 ```
@@ -60,34 +62,34 @@ $ rails server
 
 ***
 
-#### 1. Install `homebrew`
+#### 1. Install homebrew
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-#### 2. `Uninstall` standard equipment ruby
+#### 2. Uninstall standard equipment ruby
 If `path` has been displayed, Ruby has already been installed, so uninstall it
 ```
 $ which ruby
 $ sudo port uninstall ruby
 ```
 
-#### 3. Upgrade `homebrew`
+#### 3. Upgrade homebrew
 ```
 $ brew upgrade
 ```
 
-#### 4. Install `rbenv` and `ruby-build` to manage ruby versions
+#### 4. Install rbenv and ruby-build to manage ruby versions
 ```
 $ brew install rbenv ruby-build
 ```
 
-#### 5. Set up `rbenv`
+#### 5. Set up rbenv
 ```
 $ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ```
 
-#### 6. Install `ruby`
+#### 6. Install ruby
 If its `version` has been displayed, Ruby has successfully been installed.
 ```
 $ rbenv install 2.5.0
@@ -99,17 +101,17 @@ $ ruby -v
 $ rbenv global 2.5.0
 ```
 
-#### 8. Install `bundler`
+#### 8. Install bundler
 ```
 $ gem install bundler
 ```
 
-#### 9. Install `rails 5`
+#### 9. Install rails 5
 ```
 $ gem install rails -v 5.1.6
 ```
 
-#### 10. Install `postgresql`
+#### 10. Install postgresql
 ```
 $ brew install postgresql
 ```
@@ -120,12 +122,12 @@ $ brew install postgresql
 $ brew services start postgresql
 ```
 
-#### 12. Install `git`
+#### 12. Install git
 ```
 $ brew install git
 ```
 
-#### 13. Install `heroku`
+#### 13. Install heroku
 ```
 $ brew install heroku
 ```
