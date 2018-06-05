@@ -30,12 +30,12 @@
 
 ### Required elements and explanation
 
-1. `**homebrew** *Make it easier to install software into Mac OS*
-2. **rbenv** *Required to switch Ruby versions (installed via homebrew)*
-3. **Ruby** *Operated by rbenv (installed via rbenv)*
-4. **Rubygems** *Library packaging and distribution for Ruby*
-5. **Bundler** *Manage gems and its version for each your projects (gem)*
-6. **PostgreSQL** *(Database)*
+1. `**homebrew**` *Make it easier to install software into Mac OS*
+2. `**rbenv**` *Required to switch Ruby versions (installed via homebrew)*
+3. `**Ruby**` *Operated by rbenv (installed via rbenv)*
+4. `**Rubygems**` *Library packaging and distribution for Ruby*
+5. `**Bundler**` *Manage gems and its version for each your projects (gem)*
+6. `**PostgreSQL**` *(Database)*
 
 
 #### Homebrewのインストール
