@@ -43,13 +43,13 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-#### Uninstall standard equipment Ruby
+#### Uninstall standard equipment ruby
 ```
 which ruby (If path has been displayed, Ruby has already been installed.)
 sudo port uninstall ruby
 ```
 
-#### upgrade homebrew
+#### Upgrade homebrew
 ```
 brew upgrade
 ```
@@ -59,48 +59,48 @@ brew upgrade
 brew install rbenv ruby-build
 ```
 
-#### Set up rbenv 
+#### Set up rbenv
 ```
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ```
 
-#### Install Ruby
+#### Install ruby
 ```
 rbenv install 2.5.0
 ruby -v (If its version has been displayed, Ruby has already been installed.)
 ```
 
-#### set up default Ruby version
+#### Set up default ruby version
 ```
 rbenv global 2.5.0
 ```
 
-#### Install Bundler
+#### Install bundler
 ```
 gem install bundler
 ```
 
-#### Install Rails 5
+#### Install rails 5
 ```
 gem install rails -v 5.1.6
 ```
 
-#### Install PostgreSQL
+#### Install postgresql
 ```
 brew install postgresql
 ```
 
-#### Start PostgreSQL (Only once for an application)
+#### Start postgresql (only once for an application)
 ```
 brew services start postgresql
 ```
 
-#### install Git
+#### Install git
 ```
 brew install git
 ```
 
-#### install heroku
+#### Install heroku
 ```
 brew install heroku
 ```
