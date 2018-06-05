@@ -9,6 +9,12 @@
 * MacOS Sierra version 10.12.6
 
 ## Technical elements
+* homebrew
+* yarn
+* PostgreSQL 9.6.4
+* heroku
+* Ajax
+* jQuery
 
 #### Rubygems (except default gems on rails 5.1)
 * better_errors
@@ -17,19 +23,12 @@
 * rails_12factor
 * bundler
 
-#### Package Management Tool
-#### Others
-* heroku
-* Ajax
-* PostgreSQL 9.6.4
-* homebrew
-* yarn
 
 ## Description
 
 ## Setup procedure (development environment)
 
-### Required elements and explanation
+### Required elements and explanations
 
 1. `homebrew` Make it easier to install software into Mac OS
 2. `rbenv` Required to switch Ruby versions *(installed via homebrew)*
