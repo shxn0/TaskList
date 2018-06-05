@@ -1,6 +1,6 @@
 # Todolist
 
-#### Description
+### Description
 * Task Management application
 * Intuitive button layout to switch each task of status
 * Being able to search your undone tasks
@@ -26,7 +26,10 @@
 * rails_12factor
 * bundler
 
-## 
+## Entire specifications
+
+#### Function
+* CRUD cycle
 
 ## Usage
 Please clone repository to create a "local" copy on your computer.
@@ -68,7 +71,7 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 ```
 
 #### 2. Uninstall standard equipment ruby
-If `path` has been displayed, Ruby has already been installed, so uninstall it
+If `path` has been displayed, Ruby has already been installed, so uninstall it.
 ```
 $ which ruby
 $ sudo port uninstall ruby
@@ -132,19 +135,5 @@ $ brew install git
 $ brew install heroku
 ```
 
-
-```print "test" ```
-
-***
-
-`test2`
-
-1. List1
-  1. List1-1
-  1. List1-2
-
-  [Google](https://www.google.co.jp/)
-
-  Hello *World* Italic  
-  Hello **World** Bold  
-  Hello ***World*** Italic & Bold
+## Author
+[shin](https://github.com/shxn0)
