@@ -38,68 +38,69 @@
 6. `PostgreSQL` *(Database)*
 
 
-#### Homebrewのインストール
+#### Install homebrew
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-#### 標準搭載のRubyをアンインストール
+#### Uninstall standard equipment Ruby
 ```
-which ruby  
+which ruby (If path has been displayed, Ruby has already been installed.)
 sudo port uninstall ruby
 ```
 
-#### Homebrewを最新にする
+#### upgrade homebrew
 ```
 brew upgrade
 ```
 
-#### Rubyのバージョンを管理するrbenvとruby-buildをインストール
+#### Install rbenv and ruby-build to managing Ruby versions
 ```
 brew install rbenv ruby-build
 ```
 
-#### rbenvの設定を行う
+#### Set up rbenv 
 ```
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 ```
 
-#### Rubyのインストール
+#### Install Ruby
 ```
 rbenv install 2.5.0
+ruby -v (If its version has been displayed, Ruby has already been installed.)
 ```
 
-#### 標準で使用するRuby versionの設定
+#### set up default Ruby version
 ```
 rbenv global 2.5.0
 ```
 
-#### Railsをインストール
-```
-gem install rails -v 5.1.6
-```
-
-#### Bundlerのインストール
+#### Install Bundler
 ```
 gem install bundler
 ```
 
-#### PostgreSQLのインストール
+#### Install Rails 5
+```
+gem install rails -v 5.1.6
+```
+
+#### Install PostgreSQL
 ```
 brew install postgresql
 ```
 
-#### PostgreSQLの起動(only once)
+#### Start PostgreSQL (Only once for an application)
 ```
 brew services start postgresql
 ```
 
-#### Gitのインストール
+#### install Git
 ```
 brew install git
 ```
 
-#### herokuのインストール
+#### install heroku
 ```
 brew install heroku
 ```
