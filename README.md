@@ -30,14 +30,14 @@
 ## Entire specifications
 
 #### Fundamental Function
-* CRUD operations
+* CRUD operations 
 * Task table has 6 columns as below
-  - id
-  - task_name *task contents typed by users*
-  - deadline *task deadline selected by users*
-  - status *task status managed by users and updated via Ajax*
-  - created_at *used for displaying the order of task list*
-  - updated_at
+  - `id`
+  - `task_name` *task contents typed by users*
+  - `deadline` *task deadline selected by users*
+  - `status` *task status managed by users and updated via Ajax*
+  - `created_at` *used for displaying the order of task list*
+  - `updated_at`
 
 #### Database
 * Structure of tasks table
