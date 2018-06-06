@@ -52,8 +52,7 @@ This app is implemented Ajax in order to switch a status of each tasks intuitive
 
 #### Search Function
 * Regular expression  
-This app is implemented Partial matching function in order to search your undone tasks. First, it retrieves data that is only false in "status" column.
-After that, it filters the data by executing partial matching with string in "task_name" column and displays them on view page as searching result.
+This app is implemented the partial matching function in order to search your undone tasks. First, it retrieves data that is only false in "status" column. After that, it filters the data by executing partial matching with data that is string in "task_name" column and displays them on view page as the searching result.
 
 #### Layout
 * Now-ui-kit template
